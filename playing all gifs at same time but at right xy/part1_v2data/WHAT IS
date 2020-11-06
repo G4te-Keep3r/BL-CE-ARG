@@ -1,0 +1,37 @@
+####### (partial) out6 included as an example so there are not over 160k files to make github mad or slow down use of this repo, the others can be generated with the code that goes with that number (look in code). You just need to create the corresponding dir before running the code, or it will complain that it dont exist and then you gotta create it anyways ;p Each out would have almost 27k images in it if completes were upoloaded
+
+yellowtest.py
+*the color value for the first yellow of the gif does not always return the same
+*in v1, it was a more even split
+*in v2 78 retturn as 2 and 770 return as 3 (when run with 848, the newer ones have not been updated in yet)
+
+gifmaker.py
+*num - number that is part of out folder's name
+*count - does not check for how many files are in the out folder, thus you have to tell it the highest number in the out folder or how high you want to go (check will be added if this direction ends up being fruitful)
+*increment - what you are counting by. Many of the images are quite similar and with ~27k frames it generates a long gif. This way you can count by 1k to get a quick overview and then refine it to a smaller number for details.
+
+getGifSequence.py
+*downloads gifs
+*generates a bitstream which is 1 for black and 0 for white (drops yellow) from each frame of gif
+*an output csv is created with other data taken from gif where a row contains:
+	name, SEQ-####, value, [cordinates 1], [cord2], [cord3], [cord4], [cord5], "bitstream"
+
+findlongestbs.py
+*quick to find longest bitstream
+
+*** comming back to add why on each version l8r
+generate_img.py
+*1
+generate_img_pinkconflictagain.py
+generate_img_popularVote.py
+*instead of conflict/agreement it is majority unless tie then conflict
+generate_img_uniqueOnly.py
+generate_img_persistence\ silver.py
+*pixel x,y when the last of a bitstream will be silver (no data) from then on when not set by a current bitstream
+generate_img_persistence_HARDCORE.py
+*if pixel x,y was used on an bs, when not set by a current bitstream, will be silver (no data) from then on 
+generate_img_persistence_lastColor.py
+*pixel x,y will stay as the previous value if not set in current bs
+
+only middle coord maybe qmqmqm.py
+*since many of the "Scanning 43,27: No SEQ data found at this coordinate (all 0xFFFFFF)" lines had a bad character in the middle line (out of the 5), looking at only using those in the middle or only using the other 4. Need to come back to this and finish the test.

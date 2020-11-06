@@ -1,0 +1,10 @@
+C:\Users\Patrick\source\repos\BungieARG\BungieARG\bin\Debug\BungieARG.exe.config
+C:\Users\Patrick\source\repos\BungieARG\BungieARG\bin\Debug\BungieARG.exe
+C:\Users\Patrick\source\repos\BungieARG\BungieARG\bin\Debug\BungieARG.pdb
+C:\Users\Patrick\source\repos\BungieARG\BungieARG\obj\Debug\BungieARG.csprojAssemblyReference.cache
+C:\Users\Patrick\source\repos\BungieARG\BungieARG\obj\Debug\BungieARG.BungieARGForm.resources
+C:\Users\Patrick\source\repos\BungieARG\BungieARG\obj\Debug\BungieARG.Properties.Resources.resources
+C:\Users\Patrick\source\repos\BungieARG\BungieARG\obj\Debug\BungieARG.csproj.GenerateResource.cache
+C:\Users\Patrick\source\repos\BungieARG\BungieARG\obj\Debug\BungieARG.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\source\repos\BungieARG\BungieARG\obj\Debug\BungieARG.exe
+C:\Users\Patrick\source\repos\BungieARG\BungieARG\obj\Debug\BungieARG.pdb
